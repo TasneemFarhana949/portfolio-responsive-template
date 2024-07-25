@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media(max-width:600px){
+    body{
+        background-color: black;
+        border: 2px solid white;
+    }
+}
+header{
+    background-color: rebeccapurple;
+    color: white;
+    text-align:center;
+    height: 66px;
+}
+    nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 14px;
+}
+section{
+   padding: 14px;
+   color:rgb(39,64,56) ; 
+}
+
+.Project{
+    background-color: blanchedalmond ;
+    padding:14px;
+     display: flex; 
+     align-items: center;
+     justify-content: center;
+     /*border: 2px solid black;*/
+}
+
+.Projectheading{
+  text-align: center;
+  padding: 8px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    background-color: rgba(129, 123, 123, 0.453);
+    padding: 14px;
+}
+#myproj{
+    text-align: center;
+    margin: 14px;
+}
+form{
+    display: flex;
+    gap: 16px;
+    padding: 14px;
+}
+input[type="submit"]{
+    padding: 14px;
+    width:70px;
+    color:blue ;
+    border-radius: 10%;
+    background-color: bisque;
+    cursor: pointer;
+}
+input[type="text"]{
+    padding: 14px;
+    height: 20px;
+}
+input[type="number"]{
+    padding: 14px;
+    height: 20px;
+}
